@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+   background-image:linear-gradient(0deg,  rgba(53, 53, 53, .7),rgba(53, 53, 53, .7)), url(/tree-736885_1280.jpg);
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: white;
+   justify-content: center;
+   background-size: cover;
+}
+h5{
+    font-size: 26px;
+
+}
+h1{
+    font-size: 40px;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.hero-btn a{
+    text-decoration: none;
+    color: white;
+}
+.read-more-btn{
+    padding: 12px;
+    background-color: burlywood;
+    padding-right: 15px;
+    margin-right: 25px;
+}
+.hero-quote-btn{
+    padding: 12px;
+    background-color: burlywood;
+    margin-left: 25px;
+}
